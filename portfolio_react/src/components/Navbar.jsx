@@ -24,7 +24,7 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-10">
-          {["Home", "About", "Skills", "Projects", "Contact"].map((item) => (
+          {["Home", "About", "Skills", "Experience", "Projects", "Contact"].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
@@ -53,7 +53,12 @@ function Navbar() {
           animate={{ opacity: 1, scale: 1 }}
           className="mt-6 flex flex-col items-center gap-6"
         >
-          {["Home", "About", "Skills", "Projects", "Contact"].map((item) => (
+        <Motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          className="mt-6 flex flex-col items-center gap-6"
+        >
+          {["Home", "About", "Skills", "Experience", "Projects", "Contact"].map((item) => (
             <a
               key={item}
               onClick={() => setShowMenu(false)}
@@ -63,6 +68,7 @@ function Navbar() {
               {item}
             </a>
           ))}
+        </Motion.div>
         </Motion.div>
       )}
     </Motion.nav>

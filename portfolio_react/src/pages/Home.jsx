@@ -11,8 +11,8 @@ function Home() {
       <Hero />
       <About />
       <Skills />
-      <Projects />
       <Work />
+      <Projects />
       <Contact />
     </div>
   )

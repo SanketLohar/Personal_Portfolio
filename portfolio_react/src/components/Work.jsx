@@ -12,7 +12,7 @@ export default function Work() {
     viewport={{once:false,amount:0.2}}
     id='experience'
     className='relative min-h-screen overflow-hidden bg-[#05020a] text-white'>
-        <div className='container mx-auto px-6'>
+        <div className='container mx-auto px-6 py-20 md:py-32'>
          <h2 className='text-3xl font-bold text-center mb-4'>
             Work  
             <span className='text-purple ml-3'>
