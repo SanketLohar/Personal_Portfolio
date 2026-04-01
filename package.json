@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix ./portfolio_react run dev",
+    "start": "npm --prefix ./portfolio_react run dev",
+    "build": "npm --prefix ./portfolio_react run build"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
