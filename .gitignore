@@ -1,4 +1,21 @@
+# Node
 node_modules/
 dist/
-build/
+
+# Logs
+npm-debug.log*
+
+# Env
 .env
+
+# Java / Spring Boot
+target/
+*.class
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
